@@ -10,11 +10,7 @@ for i in range(N):
     if v[i]%2!=0:
         im.append(v[i])
 
-for i in range(len(p)):
-    p.sort()
-for i in range(len(im)):
-    im.sort(reverse=True)
+p.sort()
+im.sort(reverse=True)
 
 print(p+im)
-
-#DEU TIME LIMIT NO BEECROWD
