@@ -12,5 +12,7 @@ for i in range(N):
 
 p.sort()
 im.sort(reverse=True)
+ordem=p+im
 
-print(p+im)
+for i in range(len(ordem)):
+    print(ordem[i])
