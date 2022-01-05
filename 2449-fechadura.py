@@ -1,22 +1,18 @@
-nPinos , altura = map(int , input().split())
+nPinos , altura = list(map(int, input().split()))
 
-pinos= map(int , input().split())
+pinos= list(map(int, input().split()))
 movimentos=0
 #print(pinos)
 
-#for i in range(0,len(pinos),2):
-#    while pinos[i]!= altura:
-#        for j in range():
-#        if pinos[i] < altura:
-#            pinos[i]+= pinos[i]
-#        if pinos[i] > altura:
-#            pinos[i]-= pinos[i]
-
-
-for i in range(len(pinos)):
-    while pinos[i] or pinos[i+1] != altura:
-        if pinos[i] == altura:
-            pinos[i+1] = pinos[i]
-        if pinos[i] and pinos[i+1] != altura:
-            movimentos+=movimentos
+for i in range(nPinos):
+    while pinos[i]!= altura:
+        if pinos[i] < altura:
+            pinos[i]= pinos[i]+1
+            pinos[i+1]=pinos[i+1]+1
+            movimentos=movimentos+1
+            
+        if pinos[i] > altura:
+            pinos[i]= pinos[i]-1
+            pinos[i+1]=pinos[i+1]-1
+            movimentos=movimentos+1
 print(movimentos)
