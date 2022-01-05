@@ -15,4 +15,4 @@ for i in range(nPinos):
             pinos[i]= pinos[i]-1
             pinos[i+1]=pinos[i+1]-1
             movimentos=movimentos+1
-print(movimentos)
+print(movimentos) 
