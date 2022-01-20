@@ -16,6 +16,7 @@ while casos >= 1:
     area = (soma*(soma-AB)*(soma-BC)*(soma-CA)**0.5)
     casos -= 1
 print(AB)
+
 #    todasBases = AB,BC,CA
 #    base = []
 #    for i in range(len(todasBases)):
