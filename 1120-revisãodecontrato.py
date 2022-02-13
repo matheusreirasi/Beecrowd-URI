@@ -17,10 +17,10 @@ while True:
     if aux == 0:
       if i != 0:
         lista_final.append(i)
-        aux+= 1
+        aux += 1
     else:
       lista_final.append(i)
-      aux+= 1
+      aux += 1
       
   soma = 0
   for i in range(len(lista)):
