@@ -8,3 +8,5 @@ int main() {
     printf("%.4lf\n",dist);
     return 0;
 }
+
+//esperava colocar os valores de x1 e y1 em uma linha e x2 e y2 noutra, porém o URI aceitou colocar um em cada linha
